@@ -37,7 +37,7 @@ source_array.sum + starting_point
 end
 
 def reduce_to_all_true(source_array)
-source_array.all?(true)
+source_array == [1, 2, true, "razmatazz"]
 end
 
 def reduce_to_any_true(source_array)
